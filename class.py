@@ -54,3 +54,4 @@ print(f"Matrix, flattened: `{[x for x in m]}`")
 l = [x for x in range(10) if x % 2 == 0]  # Working syntax.
 # l = [for x in range(10) if x % 2 == 0 else 5]  # Bad syntax (if using an `else`, place checks AFTERWARDS).
 l = [x if x % 2 == 0 else 5 for x in range(10)]  # Working syntax.
+# l = [x if x % 2 == 0 for x in range(10)]  # Bad syntax! Must have `else`...`
