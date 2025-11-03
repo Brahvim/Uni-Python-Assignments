@@ -13,6 +13,6 @@ for i in range(3):
         best = uin
 
 print(f"Largest line: \"{best}\".")
-with open("uin.txt", "w") as f:
+with open("files/uin.txt", "w") as f:
     f.writelines(strings)
     # f.writelines([i + "\n" for i in strings]) # `input()` does NOT record that `\n`!

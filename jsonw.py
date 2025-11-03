@@ -5,6 +5,6 @@ students = {
     "Brahvim": 5,
 }
 
-f = open("students.json", "w")
+f = open("files/students.json", "w")
 json.dump(students, f)
 f.close()

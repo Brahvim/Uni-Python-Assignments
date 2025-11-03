@@ -1,4 +1,4 @@
-file = open("name.txt", "r")
+file = open("files/name.txt", "r")
 file.tell()
 file.read()
 file.read(5)

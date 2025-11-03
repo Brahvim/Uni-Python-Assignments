@@ -1,6 +1,6 @@
 import json
 
-f = open("students.json")
+f = open("files/students.json")
 students = json.load(f)
 f.readline()
 f.close()
