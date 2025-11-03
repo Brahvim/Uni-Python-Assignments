@@ -1,0 +1,7 @@
+file = open("name.txt", "r")
+file.tell()
+file.read()
+file.read(5)
+file.seek(13)
+file.read(5)
+file.close()
