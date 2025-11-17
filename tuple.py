@@ -9,7 +9,7 @@ t = tuple((1, 2, 3))
 
 # Extension via `list`:
 l = list(t)
-l.append(4)
+l.append(4) # type: ignore
 t = tuple(l)
 
 # Extension via tuple:

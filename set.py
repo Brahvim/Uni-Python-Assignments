@@ -4,7 +4,7 @@ s = {1, 2, 2, 3}  # Like a `java.util.HashSet`, right?
 print(s)  # `[1, 2, 3]` in some order LOL.
 
 try:
-    print(s[0])  # Indexing impossible!
+    print(s[0])  # type: ignore # Indexing impossible!
 except:
     pass
 

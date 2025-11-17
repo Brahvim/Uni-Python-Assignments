@@ -1,7 +1,7 @@
 print(f"`sum(1, True, 3.4)` is `{sum((1, True, 3.4))}`.")
 
 try:
-    print(f"`sum(1, True, \"a\", 3.4)` is `{sum((1, True, "a", 3.4))}`.")
+    print(f"`sum(1, True, \"a\", 3.4)` is `{sum((1, True, "a", 3.4))}`.") # type: ignore
 except Exception:
     print("Cannot add an `str` to numbers!")
 
