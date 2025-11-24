@@ -3,6 +3,9 @@ from pkg import text
 
 
 def has_cnsnt(t: str):
+    """
+    Returns the number of consonants in `t: str`.
+    """
     print(f"\"{t}\" has `{text.wc_cnsnt(t)}` consonants.")
 
 
