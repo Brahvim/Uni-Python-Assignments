@@ -2,7 +2,7 @@ from tkinter import *
 import math  # For `eval()` expressions!
 
 calcRoot = Tk()
-calcRoot.title("Cal-key")
+calcRoot.title("Calkey")
 calcRoot.configure(bg="#222")   # Dark background,
 calcRoot.resizable(False, False)  # Disallow resizing.
 
